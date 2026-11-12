@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moeez Ul Islam — Software Engineer</title>
+<meta name="description" content="Moeez Ul Islam is a BS IT graduate who builds AI agents, automation and web apps with Python, Django, React, LangChain and n8n.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#d6d6d6;background-image:radial-gradient(circle,#bfbfbf 1px,transparent 1px);background-size:5px 5px;color:#000;font-family:"Lucida Grande",Geneva,Verdana,"Segoe UI",sans-serif;line-height:1.7;font-size:15px;padding:44px 0 40px}
+a{color:#0000ee}
+.menubar{position:fixed;top:0;left:0;right:0;height:28px;background:#fff;border-bottom:1px solid #000;display:flex;align-items:center;padding:0 12px;font-size:13px;z-index:10}
+.menubar .logo{font-weight:bold;margin-right:20px}
+.menubar nav a{color:#000;text-decoration:none;margin-right:16px}
+.menubar nav a:hover{text-decoration:underline}
+.menubar .right{margin-left:auto;color:#555}
+.layout{max-width:1280px;margin:0 auto;padding:0 20px;display:grid;grid-template-columns:220px minmax(0,1fr) 220px;gap:24px;align-items:start}
+.side .window{margin:0 0 24px}
+.side .winbody{padding:14px 14px 16px}
+.center{min-width:0}
+.window{background:#fff;border:1px solid #000;box-shadow:3px 3px 0 #000}
+.center .window{margin:0 0 28px}
+.titlebar{height:22px;background:repeating-linear-gradient(180deg,#000 0 1px,#fff 1px 3px);border-bottom:1px solid #000;display:flex;align-items:center;padding:0 6px}
+.closebox{width:11px;height:11px;background:#fff;border:1px solid #000;flex:none}
+.titlebar .title{flex:1;text-align:center;font-weight:bold;font-size:13px;background:#fff;padding:0 10px;margin:0 auto;max-width:fit-content}
+.winbody{padding:24px 28px 28px}
+h1{font-size:26px;line-height:1.3;margin:0 0 12px}
+p{margin:0 0 14px}
+p:last-child{margin-bottom:0}
+.lede{font-size:16px}
+.meta{color:#555;font-size:13px}
+.project{margin-bottom:26px}
+.project:last-child{margin-bottom:0}
+.project h3{margin:0 0 4px;font-size:18px}
+.project p{margin:0 0 4px}
+.tags{color:#555;font-size:13px}
+.skill-group{margin-bottom:18px}
+.skill-group:last-child{margin-bottom:0}
+.skill-group h3{font-size:15px;margin:0 0 2px}
+.skill-group p{margin:0}
+.exp{margin-bottom:22px}
+.exp:last-child{margin-bottom:0}
+.exp h3{font-size:17px;margin:0}
+.exp .when{color:#555;font-size:13px}
+.exp p{margin:4px 0 0}
+.contact-list{list-style:none;padding:0;margin:0}
+.contact-list li{margin-bottom:10px}
+.contact-list li:last-child{margin-bottom:0}
+.contact-list span{display:inline-block;width:84px;color:#555;font-size:13px}
+.code{font-family:"Courier New",Courier,monospace;font-size:11px;line-height:1.6;white-space:pre-wrap;margin:0}
+.code .k{color:#0000ee;font-weight:bold}
+.code .s{color:#007700}
+.code .c{color:#777}
+.termout{font-family:"Courier New",Courier,monospace;font-size:11px;line-height:1.7;margin:0}
+.termout .ok{color:#007700}
+.flow-box{border:1px solid #000;padding:6px 8px;text-align:center;font-size:12px;background:#fff}
+.flow-arrow{text-align:center;font-size:14px;margin:4px 0}
+.nn{width:100%;height:auto;display:block}
+.side-note{font-size:11px;color:#555;margin:10px 0 0}
+.stack-wrap{max-width:1280px;margin:0 auto;padding:0 20px}
+.stack-wrap .window{margin:0 0 28px}
+.stack-group{margin-bottom:18px}
+.stack-group:last-child{margin-bottom:0}
+.stack-group h3{font-size:14px;margin:0 0 8px}
+.chip{display:inline-block;background:#fff;border:1px solid #000;border-radius:4px;padding:3px 10px;margin:0 6px 6px 0;font-size:13px}
+.window{transition:opacity .55s ease,transform .55s ease,box-shadow .18s ease}
+.window:hover{box-shadow:5px 5px 0 #000}
+html.js .window{opacity:0;transform:translateY(14px)}
+html.js .window.in{opacity:1;transform:none}
+html.js .window.in:hover{transform:translateY(-1px)}
+.chip{transition:transform .15s ease}
+.chip:hover{transform:translateY(-2px)}
+.cursor{display:inline-block;width:8px;height:13px;background:#000;vertical-align:-2px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.flow-arrow{animation:bob 1.6s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(2px)}}
+.nn .pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.window,.chip,.flow-arrow,.nn .pulse,.cursor{animation:none!important;transition:none!important}html.js .window{opacity:1;transform:none}}
+footer{text-align:center;color:#555;font-size:13px;padding:8px 0 0}
+@media(max-width:1024px){.layout{grid-template-columns:1fr}.side{display:none}}
+@media(max-width:560px){.winbody{padding:18px 20px 22px}h1{font-size:22px}.menubar nav a{margin-right:10px}}
+</style>
+<script>document.documentElement.className+=' js';</script>
+</head>
+<body>
+<div class="menubar"><span class="logo">Moeez Ul Islam</span><nav><a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a><a href="#stack">Stack</a></nav><span class="right"><span id="clock"></span> &middot; Portfolio</span></div>
+<div class="layout">
+<aside class="side">
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">python.py</span></div>
+<div class="winbody">
+<pre class="code"><span class="c"># resume bot — rag</span>
+llm = ChatGroq(
+    model=<span class="s">"llama-3.3-70b"</span>
+)
+
+<span class="k">def</span> ask_cv(q):
+    d = retriever.invoke(q)
+    <span class="k">return</span> llm.invoke(d)
+
+ask_cv(<span class="s">"What did he build?"</span>)</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">terminal</span></div>
+<div class="winbody">
+<p class="termout">$ python app.py<br><span class="ok">›</span> Loading FAISS index... OK<br><span class="ok">›</span> 7 chunks indexed<br><span class="ok">›</span> Ready. Ask me anything. <span class="cursor"></span></p>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">langchain.py</span></div>
+<div class="winbody">
+<pre class="code"><span class="c"># langchain — chain</span>
+prompt = ChatPromptTemplate(
+    <span class="s">"Answer from {context}"</span>
+)
+
+chain = prompt | llm | parser
+chain.invoke({<span class="s">"q"</span>: q})</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">django.py</span></div>
+<div class="winbody">
+<pre class="code"><span class="c"># consilium — views.py</span>
+<span class="k">def</span> result(request):
+    score = (
+        matric * 0.30
+        + inter * 0.40
+        + psych * 0.30
+    )
+    <span class="k">return</span> top_3(score)</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">app.js</span></div>
+<div class="winbody">
+<pre class="code"><span class="c">// visualizer — app.js</span>
+<span class="k">const</span> [grid, setGrid] =
+    useState(makeGrid(15, 25));
+
+dijkstra(grid, start, end);</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">query.sql</span></div>
+<div class="winbody">
+<pre class="code"><span class="c">-- top careers</span>
+<span class="k">SELECT</span> career, score
+<span class="k">FROM</span> results
+<span class="k">WHERE</span> user_id = 1
+<span class="k">ORDER BY</span> score <span class="k">DESC</span>
+LIMIT 3;</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">Dockerfile</span></div>
+<div class="winbody">
+<pre class="code"><span class="k">FROM</span> python:3.12-slim
+WORKDIR /app
+COPY requirements.txt .
+<span class="k">RUN</span> pip install -r req.txt
+CMD [<span class="s">"python"</span>, <span class="s">"app.py"</span>]</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">pandas.py</span></div>
+<div class="winbody">
+<pre class="code"><span class="c"># pandas — quick check</span>
+df = pd.read_csv(<span class="s">"marks.csv"</span>)
+df[<span class="s">"total"</span>] = df.sum(axis=1)
+print(df.head())</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">ocr.py</span></div>
+<div class="winbody">
+<pre class="code"><span class="c"># ocr — marksheet scan</span>
+img = <span class="s">"marksheet.jpg"</span>
+text = ocr.read(img)
+marks = parse_marks(text)
+print(marks[<span class="s">"total"</span>])</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">webhook.json</span></div>
+<div class="winbody">
+<pre class="code">{
+  <span class="s">"event"</span>: <span class="s">"call.ended"</span>,
+  <span class="s">"action"</span>: <span class="s">"book"</span>,
+  <span class="s">"status"</span>: <span class="s">"confirmed"</span>
+}</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">zapier — flow</span></div>
+<div class="winbody">
+<div class="flow-box">New email</div>
+<div class="flow-arrow">&darr;</div>
+<div class="flow-box">AI summary</div>
+<div class="flow-arrow">&darr;</div>
+<div class="flow-box">Slack post</div>
+<p class="side-note">Zapier — automation flow</p>
+</div>
+</div>
+</aside>
+
+<main class="center">
+<div class="window" id="about">
+<div class="titlebar"><span class="closebox"></span><span class="title">About</span></div>
+<div class="winbody">
+<h1>Software engineer who builds AI agents, automation and web apps.</h1>
+<p class="lede">I&rsquo;m Moeez Ul Islam, a BS IT graduate from the University of the Punjab (2026). I build LLM applications, AI voice agents and workflow automation, and full-stack web apps with Python, Django and React.</p>
+<p class="meta">Based in Kharian, Pakistan &middot; Working remotely &middot; Available for junior AI engineer and full-stack developer roles, and freelance projects</p>
+</div>
+</div>
+
+<div class="window" id="work">
+<div class="titlebar"><span class="closebox"></span><span class="title">Selected Work</span></div>
+<div class="winbody">
+<div class="project">
+<h3><a href="https://github.com/Moeez-Ul-Islam/consilium-smart-career-advisor">Consilium: Smart Career Advisor</a></h3>
+<p>Career guidance platform for Pakistani Intermediate students. Marks entry, marksheet scanning with OCR, a 30-question personality assessment, and a scoring engine that recommends careers, degrees and universities.</p>
+<p class="tags">Python &middot; Django &middot; PostgreSQL &middot; JavaScript</p>
+</div>
+<div class="project">
+<h3>Ava &middot; AI Voice Receptionist for Dental &amp; Medical Clinics</h3>
+<p>Voice agent that answers clinic calls, books appointments and handles patient questions. Concept demo and core MVP delivered.</p>
+<p class="tags">Vapi &middot; Retell &middot; ElevenLabs &middot; n8n</p>
+</div>
+<div class="project">
+<h3>Resume Bot &mdash; RAG Chatbot from CV</h3>
+<p>LangChain RAG chatbot that answers questions from my own CV, with retrieval and citations, and a LangGraph grade-and-rewrite loop.</p>
+<p class="tags">LangChain &middot; LangGraph &middot; Groq LLaMA &middot; Hugging Face &middot; FAISS &middot; Streamlit</p>
+</div>
+<div class="project">
+<h3><a href="https://moeez-ul-islam.github.io/sorting-pathfinding-visualizer/">Sorting &amp; Pathfinding Visualizer</a></h3>
+<p>Sorting and pathfinding visualizer: five sorting algorithms, and Dijkstra, A* and BFS on a grid with draggable walls and random mazes.</p>
+<p class="tags">React &middot; JavaScript</p>
+</div>
+<div class="project">
+<h3>NDVI Dashboard</h3>
+<p>Vegetation index dashboard built from real Sentinel-2 satellite data.</p>
+<p class="tags">Sentinel-2 satellite data</p>
+</div>
+</div>
+</div>
+
+<div class="window" id="skills">
+<div class="titlebar"><span class="closebox"></span><span class="title">Skills</span></div>
+<div class="winbody">
+<div class="skill-group"><h3>Programming Languages</h3><p>Python, JavaScript, PHP, C++, HTML, CSS</p></div>
+<div class="skill-group"><h3>Frameworks &amp; Libraries</h3><p>Django, React, LangChain, LangGraph, Tailwind CSS</p></div>
+<div class="skill-group"><h3>Databases</h3><p>PostgreSQL, FAISS (Vector Database)</p></div>
+<div class="skill-group"><h3>Automation &amp; AI Tools</h3><p>n8n, Make.com, Zapier, Microsoft Power Automate, Vapi, Retell, ElevenLabs</p></div>
+<div class="skill-group"><h3>Other</h3><p>RAG Systems, AI Voice Agents, Workflow Automation, Docker, FastAPI, Pandas, Claude, Cursor</p></div>
+</div>
+</div>
+
+<div class="window" id="experience">
+<div class="titlebar"><span class="closebox"></span><span class="title">Experience</span></div>
+<div class="winbody">
+<div class="exp"><h3>Freelance AI Automation Specialist &amp; Web Developer &mdash; Self-Employed</h3><p class="when">Dec 2025 &ndash; Present</p><p>AI voice agents, n8n automation workflows and business websites for clients in the USA and Middle East.</p></div>
+<div class="exp"><h3>Frontend Developer &amp; Web Operations Intern &mdash; IZI Services Pvt Ltd. | IZI Topup (Italy)</h3><p class="when">Jan 2026 &ndash; May 2026</p><p>Frontend interfaces and day-to-day web operations for a B2B topup service provider.</p></div>
+<div class="exp"><h3>BS Information Technology &mdash; University of the Punjab</h3><p class="when">2022 &ndash; 2026 &middot; CGPA 3.08 / 4.00</p><p>Final year project: Consilium: Smart Career Advisor.</p></div>
+</div>
+</div>
+
+<div class="window" id="contact">
+<div class="titlebar"><span class="closebox"></span><span class="title">Contact</span></div>
+<div class="winbody">
+<ul class="contact-list">
+<li><span>Email</span><a href="mailto:moeezulislam5656@gmail.com">moeezulislam5656@gmail.com</a></li>
+<li><span>LinkedIn</span><a href="https://www.linkedin.com/in/moeez-ul-islam-91548a340">linkedin.com/in/moeez-ul-islam-91548a340</a></li>
+<li><span>GitHub</span><a href="https://github.com/Moeez-Ul-Islam">github.com/Moeez-Ul-Islam</a></li>
+<li><span>WhatsApp</span><a href="https://wa.me/923206265234">+92 320 6265234</a></li>
+</ul>
+</div>
+</div>
+</main>
+
+<aside class="side">
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">neural_net</span></div>
+<div class="winbody">
+<svg class="nn" viewBox="0 0 200 160" role="img" aria-label="Neural network diagram">
+<g stroke="#000" stroke-width="1" opacity="0.45">
+<line x1="25" y1="30" x2="100" y2="20"/><line x1="25" y1="30" x2="100" y2="55"/><line x1="25" y1="30" x2="100" y2="90"/><line x1="25" y1="30" x2="100" y2="125"/>
+<line x1="25" y1="75" x2="100" y2="20"/><line x1="25" y1="75" x2="100" y2="55"/><line x1="25" y1="75" x2="100" y2="90"/><line x1="25" y1="75" x2="100" y2="125"/>
+<line x1="25" y1="120" x2="100" y2="20"/><line x1="25" y1="120" x2="100" y2="55"/><line x1="25" y1="120" x2="100" y2="90"/><line x1="25" y1="120" x2="100" y2="125"/>
+<line x1="100" y1="20" x2="175" y2="50"/><line x1="100" y1="20" x2="175" y2="100"/>
+<line x1="100" y1="55" x2="175" y2="50"/><line x1="100" y1="55" x2="175" y2="100"/>
+<line x1="100" y1="90" x2="175" y2="50"/><line x1="100" y1="90" x2="175" y2="100"/>
+<line x1="100" y1="125" x2="175" y2="50"/><line x1="100" y1="125" x2="175" y2="100"/>
+</g>
+<g fill="#fff" stroke="#000" stroke-width="1.5">
+<circle cx="25" cy="30" r="8"/><circle cx="25" cy="75" r="8"/><circle cx="25" cy="120" r="8"/>
+<circle cx="100" cy="20" r="8"/><circle cx="100" cy="55" r="8"/><circle cx="100" cy="90" r="8"/><circle cx="100" cy="125" r="8"/>
+</g>
+<g fill="#000" stroke="#000" stroke-width="1.5">
+<circle class="pulse" cx="175" cy="50" r="8"/><circle class="pulse" cx="175" cy="100" r="8"/>
+</g>
+<g font-family="Geneva,Verdana,sans-serif" font-size="10" fill="#555" text-anchor="middle">
+<text x="25" y="150">input</text><text x="100" y="150">hidden</text><text x="175" y="150">output</text>
+</g>
+</svg>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">n8n — clinic flow</span></div>
+<div class="winbody">
+<div class="flow-box">Call received</div>
+<div class="flow-arrow">&darr;</div>
+<div class="flow-box">AI Agent answers</div>
+<div class="flow-arrow">&darr;</div>
+<div class="flow-box">Appointment booked</div>
+<p class="side-note">Ava — voice receptionist flow</p>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">rag_pipeline</span></div>
+<div class="winbody">
+<div class="flow-box">Documents</div>
+<div class="flow-arrow">&darr;</div>
+<div class="flow-box">Chunks</div>
+<div class="flow-arrow">&darr;</div>
+<div class="flow-box">Embeddings</div>
+<div class="flow-arrow">&darr;</div>
+<div class="flow-box">FAISS</div>
+<div class="flow-arrow">&darr;</div>
+<div class="flow-box">Retrieve</div>
+<div class="flow-arrow">&darr;</div>
+<div class="flow-box">LLM Answer</div>
+<p class="side-note">Resume Bot — RAG pipeline</p>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">fastapi.py</span></div>
+<div class="winbody">
+<pre class="code"><span class="c"># fastapi — api</span>
+@app.get(<span class="s">"/health"</span>)
+<span class="k">def</span> health():
+    <span class="k">return</span> {<span class="s">"status"</span>: <span class="s">"ok"</span>}
+
+@app.post(<span class="s">"/ask"</span>)
+<span class="k">def</span> ask(q: str):
+    <span class="k">return</span> ask_cv(q)</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">vapi.py</span></div>
+<div class="winbody">
+<pre class="code"><span class="c"># vapi — voice agent</span>
+assistant = {
+    <span class="s">"model"</span>: <span class="s">"llama-3.3-70b"</span>,
+    <span class="s">"voice"</span>: <span class="s">"elevenlabs"</span>,
+    <span class="s">"tools"</span>: [<span class="s">"book"</span>, <span class="s">"cancel"</span>]
+}</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">make — lead flow</span></div>
+<div class="winbody">
+<div class="flow-box">New lead</div>
+<div class="flow-arrow">&darr;</div>
+<div class="flow-box">AI drafts reply</div>
+<div class="flow-arrow">&darr;</div>
+<div class="flow-box">Email sent</div>
+<p class="side-note">Make.com — automation flow</p>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">faiss.index</span></div>
+<div class="winbody">
+<p class="termout">faiss index<br>dim: 384<br>chunks: 7<br>metric: L2</p>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">streamlit.py</span></div>
+<div class="winbody">
+<pre class="code"><span class="c"># streamlit — ui</span>
+st.title(<span class="s">"Resume Bot"</span>)
+q = st.text_input(<span class="s">"Ask my CV"</span>)
+<span class="k">if</span> q:
+    st.write(ask_cv(q))</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">embed.py</span></div>
+<div class="winbody">
+<pre class="code"><span class="c"># embeddings — index</span>
+model = SentenceTransformer(
+    <span class="s">"all-MiniLM-L6-v2"</span>
+)
+v = model.encode(chunks)
+index.add(v)</pre>
+</div>
+</div>
+<div class="window">
+<div class="titlebar"><span class="closebox"></span><span class="title">readme.md</span></div>
+<div class="winbody">
+<p class="termout"># moeez<br>AI agents, automation<br>and web apps.<br>Built with Python,<br>LangChain and n8n.</p>
+</div>
+</div>
+</aside>
+</div>
+
+<div class="stack-wrap">
+<div class="window" id="stack">
+<div class="titlebar"><span class="closebox"></span><span class="title">My Stack</span></div>
+<div class="winbody">
+<div class="stack-group"><h3>AI &amp; LLM</h3><span class="chip">LangChain</span><span class="chip">LangGraph</span><span class="chip">RAG Systems</span><span class="chip">Groq LLaMA</span><span class="chip">Hugging Face</span><span class="chip">FAISS</span><span class="chip">ElevenLabs</span><span class="chip">Vapi</span><span class="chip">Retell</span></div>
+<div class="stack-group"><h3>Automation</h3><span class="chip">n8n</span><span class="chip">Make.com</span><span class="chip">Zapier</span><span class="chip">Microsoft Power Automate</span><span class="chip">REST APIs</span><span class="chip">Webhooks</span></div>
+<div class="stack-group"><h3>Web &amp; Data</h3><span class="chip">Python</span><span class="chip">Django</span><span class="chip">FastAPI</span><span class="chip">PostgreSQL</span><span class="chip">React</span><span class="chip">JavaScript</span><span class="chip">Tailwind CSS</span><span class="chip">Pandas</span><span class="chip">Streamlit</span><span class="chip">Docker</span><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">PHP</span><span class="chip">C++</span></div>
+<div class="stack-group"><h3>Tools</h3><span class="chip">Claude</span><span class="chip">Cursor</span><span class="chip">HubSpot</span></div>
+</div>
+</div>
+<div class="window" id="currently">
+<div class="titlebar"><span class="closebox"></span><span class="title">Currently</span></div>
+<div class="winbody">
+<p>Open to junior AI engineer and full-stack developer roles &middot; Freelancing on AI voice agents and n8n automation &middot; Learning agentic AI</p>
+</div>
+</div>
+</div>
+<footer>&copy; 2026 Moeez Ul Islam &middot; Kharian, Punjab, Pakistan</footer>
+<script>
+(function(){
+var clock=document.getElementById('clock');
+function tick(){
+  try{clock.textContent=new Intl.DateTimeFormat('en-US',{hour:'numeric',minute:'2-digit',timeZone:'Asia/Karachi'}).format(new Date());}catch(e){clock.textContent='';}
+}
+tick();setInterval(tick,20000);
+var wins=document.querySelectorAll('.window');
+function reveal(){
+  var h=window.innerHeight||800;
+  wins.forEach(function(w){
+    if(w.classList.contains('in'))return;
+    var r=w.getBoundingClientRect();
+    if(r.top<h*0.92&&r.bottom>0)w.classList.add('in');
+  });
+}
+window.addEventListener('scroll',reveal,{passive:true});
+window.addEventListener('resize',reveal);
+reveal();
+setTimeout(reveal,300);
+})();
+</script>
+</body>
+</html>
